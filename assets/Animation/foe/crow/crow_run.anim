@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "crow",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.1,
+  "sample": 60,
+  "speed": 0.3,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "2a51139c-044a-46c9-ae53-b2b06127e857"
+            }
+          },
+          {
+            "frame": 0.016666666666666666,
+            "value": {
+              "__uuid__": "ec1ec553-b7cd-4369-96e8-7d60b6887bdc"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "1de0c96e-72be-44f1-b291-bc154ba52038"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "a9deed24-8239-475e-9c60-410a8151eb11"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "e32161b9-2fe6-4fc8-abc8-8ce48d6be887"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "1d337a04-88d7-41d1-8e67-7df54a4638c8"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}
