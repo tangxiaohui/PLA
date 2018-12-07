@@ -118,6 +118,9 @@
       },
       {
         "__uuid__": "47904cd4-370a-4341-94fb-144a98d00668"
+      },
+      {
+        "__uuid__": "9674cd0f-240d-449d-a65a-9e54cf284fa8"
       }
     ],
     "playOnLoad": false
@@ -205,7 +208,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "704f5d68-b20d-4703-84a3-c0c82c234da9"
     },
     "fileId": "52MQCHlqVFA67t2isN2GLM",
     "sync": false

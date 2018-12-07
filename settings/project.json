@@ -14,6 +14,8 @@
     [
       false,
       true,
+      true,
+      null,
       true
     ],
     [
@@ -23,6 +25,13 @@
     ],
     [
       false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
       false,
       false,
       false
@@ -37,7 +46,8 @@
     "default",
     "player",
     "platform",
-    "weapon"
+    "weapon",
+    "gold"
   ],
   "simulator-orientation": false,
   "simulator-resolution": {

@@ -160,6 +160,7 @@ export default class Hero extends cc.Component {
     }
     //离开平台
     public PlatformExit(other:any, self:any):void{
+        
         switch(this.ConllisionTag(other,self)){
             case 1://右边
                 
@@ -167,6 +168,7 @@ export default class Hero extends cc.Component {
             case 2://下方
                 if(other.isLow){
                     console.log("离开平台使用重力");
+                    this.animation.play("player_down");
                     this.isG = true;
                 }
                 break;

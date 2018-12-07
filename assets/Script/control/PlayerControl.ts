@@ -18,11 +18,13 @@ export default class PlayerControl extends cc.Component {
 
     public hero:Hero = null;//英雄
     public isStart:boolean = false;//是否开始
+
+    private mapNode:cc.Node;//地图节点
     private playerOriPosX:number = 0;//原始X位置
     
 
     onLoad () {
-        
+        this.mapNode = this.node.parent.getChildByName("map");
     }
 
 
@@ -31,6 +33,8 @@ export default class PlayerControl extends cc.Component {
     }
     lateUpdate(){
         if(this.isStart){
+            
+            if(this.camera.node.x < this.mapNode.width - this.camera.node.width)
             this.camera.node.x = this.hero.node.x-this.playerOriPosX;
         }
         
