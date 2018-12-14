@@ -76,7 +76,7 @@ export default class Hero extends cc.Component {
     }
 
     public onCollisionEnter(other:cc.BoxCollider, self:cc.BoxCollider) {
-
+        console.log(other.node.group);
         switch (other.node.group){
             case CONFIG.collisionType.platform:
                 this.PlatformEnter(other,self);

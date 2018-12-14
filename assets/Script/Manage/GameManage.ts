@@ -22,6 +22,8 @@ export default class GameManage extends cc.Component {
     backgroundControl:BackgroundControl = null;//环境控制器节点
     @property(cc.Node)
     playerNode:cc.Node = null;//玩家控制节点
+    @property(cc.Label)
+    goldLabel:cc.Label = null;//金幣
 
 
     onLoad () {
@@ -36,7 +38,9 @@ export default class GameManage extends cc.Component {
 
     }
 
-    // update (dt) {}
+    update (dt) {
+        this.goldLabel.string = <any>Director.gameData.curGold || 0;
+    }
 
 
     public Init():void{

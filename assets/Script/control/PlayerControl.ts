@@ -34,8 +34,10 @@ export default class PlayerControl extends cc.Component {
     lateUpdate(){
         if(this.isStart){
             
-            if(this.camera.node.x < this.mapNode.width - this.camera.node.width)
-            this.camera.node.x = this.hero.node.x-this.playerOriPosX;
+            if(this.camera.node.x < this.mapNode.width - this.camera.node.width){
+                this.camera.node.x = this.hero.node.x-this.playerOriPosX;
+            }
+           
         }
         
     }
